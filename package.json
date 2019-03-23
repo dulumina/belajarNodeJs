@@ -1,0 +1,22 @@
+{
+  "name": "belajat",
+  "version": "1.0.0",
+  "description": "Ini repository untuk belajar Node Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dulumina/belajarNodeJs.git"
+  },
+  "author": "Fikri Dulumina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dulumina/belajarNodeJs/issues"
+  },
+  "homepage": "https://github.com/dulumina/belajarNodeJs#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
