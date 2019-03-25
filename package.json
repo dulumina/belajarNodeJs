@@ -1,23 +1,28 @@
 {
-  "name": "belajat",
+  "name": "express",
   "version": "1.0.0",
   "description": "Ini repository untuk belajar Node Js",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.3",
+    "mongodb": "^3.2.2",
+    "mongos": "0.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dulumina/belajarNodeJs.git"
   },
-  "author": "Fikri Dulumina",
+  "author": "Dzulfikri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dulumina/belajarNodeJs/issues"
   },
-  "homepage": "https://github.com/dulumina/belajarNodeJs#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "hbs": "^4.0.3"
-  }
+  "homepage": "https://github.com/dulumina/belajarNodeJs#readme"
 }

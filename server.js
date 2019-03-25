@@ -1,6 +1,8 @@
-const path 		= require('path')
-const express 	= require('express')
-const app 		= express()
+const path 		 = require('path')
+const bodyParser = require('body-parser')
+const express 	 = require('express')
+const app 		 = express()
+require('./models/mongo.js')
 
 
 // View engine setup
@@ -13,6 +15,10 @@ app.get('/',( req, res) => {
 	res.render('index',{
 		nama : 'Dzulfikri'
 	})
+});
+
+app.get('/profil',( req, res) => {
+	res.render('prifile')
 });
 
 
