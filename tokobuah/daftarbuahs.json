@@ -1,0 +1,51 @@
+{ 
+    "_id" : ObjectId("5c9a1b2b6e537513d006c9fb"), 
+    "buah" : "rambutan", 
+    "harga" : "10000", 
+    "satuan" : "kg", 
+    "deskripsi" : "buah rambutan segar berasal dari kebun sendiri"
+}
+{ 
+    "_id" : ObjectId("5c9a1bb76e537513d006c9fc"), 
+    "buah" : "apel", 
+    "harga" : "25000", 
+    "satuan" : "kg", 
+    "deskripsi" : "apel import dari korea. ditanam dengan menggunakan sistem pertanian yang canggih."
+}
+{ 
+    "_id" : ObjectId("5c9a1c66f49ceb13d058c848"), 
+    "buah" : "manggis", 
+    "harga" : "15000", 
+    "satuan" : "kg", 
+    "deskripsi" : "manggis adalah buah yang mengandung banyak manfaat bagi kesehatan"
+}
+{ 
+    "_id" : ObjectId("5c9a1ca3f49ceb13d058c849"), 
+    "buah" : "jeruk", 
+    "harga" : "20000", 
+    "satuan" : "kg", 
+    "deskripsi" : "jeruk mengandung banyak vitamin C yang baik bagi kesehatan kulit"
+}
+{ 
+    "_id" : ObjectId("5c9af841dace5c0dc8bc9711"), 
+    "buah" : "Anggur", 
+    "harga" : "30000", 
+    "satuan" : "kg", 
+    "deskripsi" : "buah tropis yang sangat segar mengandung banyak vitamin"
+}
+{ 
+    "_id" : ObjectId("5c9c4a2c79ae6d17605ee550"), 
+    "buah" : "Blimbing wuluh", 
+    "harga" : NumberInt(10000), 
+    "satuan" : "kg", 
+    "deskripsi" : "mengandung banyak air dan vitamin C", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5c9c4ac2a163f215608cdfab"), 
+    "buah" : "Mangga", 
+    "harga" : NumberInt(3000), 
+    "satuan" : "Buah", 
+    "deskripsi" : "suka suka kau lah", 
+    "__v" : NumberInt(0)
+}
