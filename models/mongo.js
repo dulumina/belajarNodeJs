@@ -1,17 +1,19 @@
-const MongoClient = require('mongodb').MongoClient;
+/* sedang tidak digunakan
+
+const Mongose = require('mongodb').MongoClient;
 const assert = require('assert');
  
 // Connection URL
 const url = 'mongodb://localhost:27017';
  
 // Database Name
-const dbName = 'myproject';
+const dbName = 'tutorial';
  
 // Use connect method to connect to the server
-MongoClient.connect(url, function(err, client) {
+Mongose.connect(url, function(err, client) {
   assert.equal(null, err);
   if(!err){
-    console.log("Connected successfully to server");
+    console.log("Connected successfully to server Database");
   }else{
     console.log("error in DB connections "+ err);
   }
@@ -20,3 +22,5 @@ MongoClient.connect(url, function(err, client) {
  
   client.close();
 });
+
+*/

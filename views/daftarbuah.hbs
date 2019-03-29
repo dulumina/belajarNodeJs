@@ -1,0 +1,23 @@
+<article class="card-post">
+        <div class="container">
+            <div class="row">
+                    {{#each list}}
+                        <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{buah}}</h5>
+                            <p><b>{{harga}}</b>/{{satuan}}</p>
+                            <p class="card-text">{{deskripsi}}</p>
+                            <a href="/tokobuah/edit/{{_id}}" class="btn btn-primary">Edit</a>
+                        </div>
+                        </div>
+                    {{/each}}
+            </div>
+            <br>
+            <hr>
+            <div>
+                <a href="/tokobuah/add" class="btn btn-success">Tambah</a>
+            </div>
+        </div>
+    </div>
+</article>
